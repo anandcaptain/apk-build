@@ -1,0 +1,24 @@
+; Engine configuration file.
+; This is best edited using the editor UI and not directly,
+; since the parameters that go here are meant to be edited
+; using the UI and are saved on scene change.
+
+config_version=5
+
+[application]
+
+config/name="FlappyBird"
+run/main_scene="res://Main.tscn"
+config/features=PackedStringArray("4.3", "Mobile")
+
+[display]
+
+window/size/viewport_width=480
+window/size/viewport_height=720
+window/handheld/orientation=1
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep"
+
+[rendering]
+
+renderer/rendering_method="mobile"
